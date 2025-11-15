@@ -12,14 +12,14 @@ The dataset used in this project is stored in the `raw_data/` folder and is deri
 
 It contains the following CSV files:
 
-- **Nexusgoods_orders_dataset.csv** – Order-level details including purchase date, approved date, delivery dates, and order status.
-- **Nexusgoods_order_items_dataset.csv** – Items within each order, including product IDs, seller IDs, shipping cost, and item price.
-- **Nexusgoods_order_payments_dataset.csv** – Payment methods and payment installment information.
-- **Nexusgoods_order_reviews_dataset.csv** – Customer reviews, ratings, and review timestamps.
-- **Nexusgoods_customers_dataset.csv** – Customer locations and unique customer IDs.
-- **Nexusgoods_sellers_dataset.csv** – Seller information including location.
-- **Nexusgoods_products_dataset.csv** – Product details such as category, weight, dimensions, etc.
-- **Nexusgood_geolocation_dataset.csv** – Geolocation coordinates mapped to ZIP codes.
+- **orders_dataset.csv** – Order-level details including purchase date, approved date, delivery dates, and order status.
+- **order_items_dataset.csv** – Items within each order, including product IDs, seller IDs, shipping cost, and item price.
+- **order_payments_dataset.csv** – Payment methods and payment installment information.
+- **order_reviews_dataset.csv** – Customer reviews, ratings, and review timestamps.
+- **customers_dataset.csv** – Customer locations and unique customer IDs.
+- **sellers_dataset.csv** – Seller information including location.
+- **products_dataset.csv** – Product details such as category, weight, dimensions, etc.
+- **geolocation_dataset.csv** – Geolocation coordinates mapped to ZIP codes.
 - **product_category_name_translation.csv** – Mapping of Portuguese category names to English.
 
 These files will be merged together inside Power BI to build a relational data model that supports all 8 problem statements.
