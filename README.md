@@ -40,7 +40,7 @@ This project focuses on solving the following 8 analytical problems using Power 
 
 4. **Payment Method Analysis**  
    Analyze which payment methods customers use the most.
-
+---------------------------------------------------------------------------------------------------
 5. **Product Rating Analysis**  
    Identify the top 10 highest-rated and bottom 10 lowest-rated products.
 
@@ -62,14 +62,10 @@ The project is organized as follows:
 shopnest-powerbi/
 │
 ├── raw_data/                  # Original CSV files (uploaded dataset)
-├── data/                      # Cleaned / processed data 
 ├── docs/                      # Documentation (problem statement included)
 │   └── problem_statement.md
-├── powerquery/                # Exported Power Query (M) scripts 
-├── dax/                       # DAX measures 
-├── pbix/                      # Optional PBIX files 
 ├── pbit/                      # Power BI template files 
 ├── README.md                  # Main project documentation
-└── .gitignore                 # Ignored files and rules
+
 
 
